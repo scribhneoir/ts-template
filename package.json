@@ -8,6 +8,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsgo",
     "dev": "node src/index.ts",
     "test": "vitest",
     "lint": "oxlint --type-aware",
@@ -15,6 +16,7 @@
     "tc": "tsgo --noEmit"
   },
   "devDependencies": {
+    "@types/node": "^25.3.3",
     "@typescript/native-preview": "7.0.0-dev.20260302.1",
     "oxfmt": "^0.36.0",
     "oxlint": "^1.51.0",
